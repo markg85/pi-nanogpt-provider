@@ -1,0 +1,15 @@
+{
+  "name": "pi-nanogpt-provider",
+  "version": "1.0.0",
+  "description": "Pi extension for NanoGPT — access 600+ LLMs through a single API key with dynamic model discovery.",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "Mark Gaiser <markg85@gmail.com>",
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*"
+  }
+}
