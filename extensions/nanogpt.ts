@@ -152,7 +152,7 @@ export default async function (pi: ExtensionAPI) {
   pi.registerProvider("nanogpt", {
     name: "NanoGPT",
     baseUrl: "https://nano-gpt.com/api/v1",
-    apiKey: "NANOGPT_API_KEY",
+    apiKey: "$NANOGPT_API_KEY",
     api: "openai-completions",
     authHeader: true,
     models,
